@@ -1,0 +1,59 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+
+        width: 250px; 
+        height: 250px; 
+        margin: auto; 
+        text-align: center;
+        background-color: lightgray; 
+        border-radius: 20px;
+}
+
+h1 {
+    background-color: #1195e2; 
+    border-radius: 20px 20px 0 0; 
+    transition: all .2s; 
+}
+
+.winner {
+    background-color: #f3094f;
+}   
+
+button {
+    border : none;
+    padding : 5px; 
+    background: black; 
+    color: white; 
+    transition-property: box-shadow, background; 
+    transition-duration: .3s;
+    outline : none; 
+    border-radius:3px; 
+}
+
+button:hover {
+    box-shadow: 3px 3px gray;
+    background: linear-gradient(gray, black );
+}
+
+input {
+    width : 35px; 
+    height : 20px; 
+    background-color: lightgray;
+    border :.5px solid; 
+    border-radius: 2px; 
+}
+
+#gameOver {
+    margin: 13px;
+    color : red; 
+    font-size : 200%; 
+    transition: all .5s; 
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.3rem;
+    line-height: 200%;
+
+}
+
