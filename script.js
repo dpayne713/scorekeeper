@@ -62,7 +62,7 @@ resetButton.addEventListener('click', function () {
     h1.classList.remove('winner')
     p1Score.textContent = p1ScoreValue;
     p2Score.textContent = p2ScoreValue;
-    highScore.value = 5;
+    highScore.value = 11;
     gameOverDisplay.textContent = ""
 });
 
